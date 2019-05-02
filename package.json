@@ -1,7 +1,7 @@
 {
-  "name": "@superset-ui/legacy-plugin-chart-word-cloud",
-  "version": "0.10.11",
-  "description": "Superset Legacy Chart - Word Cloud",
+  "name": "CDL-horizontal-bar",
+  "version": "0.0.1",
+  "description": "Superset custom Viz - Horizontal bar Chart",
   "sideEffects": [
     "*.css"
   ],
@@ -13,17 +13,17 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/apache-superset/superset-ui-plugins.git"
+    "url": "git+https://github.com/CivicDataLab/superset_custom_viz_horizontal_bar.git"
   },
   "keywords": [
     "superset"
   ],
-  "author": "Superset",
-  "license": "Apache-2.0",
+  "author": "CivicDataLab",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/apache-superset/superset-ui-plugins/issues"
+    "url": "https://github.com/CivicDataLab/superset_custom_viz_horizontal_bar/issues"
   },
-  "homepage": "https://github.com/apache-superset/superset-ui-plugins#readme",
+  "homepage": "https://github.com/CivicDataLab/superset_custom_viz_horizontal_bar#readme",
   "publishConfig": {
     "access": "public"
   },
