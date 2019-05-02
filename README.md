@@ -1,4 +1,4 @@
-## @superset-ui/legacy-plugin-chart-word-cloud
+## CDL-horizontal-bar
 
 [![Version](https://img.shields.io/npm/v/@superset-ui/legacy-plugin-chart-word-cloud.svg?style=flat-square)](https://img.shields.io/npm/v/@superset-ui/legacy-plugin-chart-word-cloud.svg?style=flat-square)
 [![David (path)](https://img.shields.io/david/apache-superset/superset-ui-plugins.svg?path=packages%2Fsuperset-ui-legacy-plugin-chart-word-cloud&style=flat-square)](https://david-dm.org/apache-superset/superset-ui-plugins?path=packages/superset-ui-legacy-plugin-chart-word-cloud)
