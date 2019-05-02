@@ -22,14 +22,14 @@ import transformProps from './transformProps';
 import thumbnail from './images/thumbnail.png';
 
 const metadata = new ChartMetadata({
-  credits: ['https://github.com/jasondavies/d3-cloud'],
+  credits: ['https://bl.ocks.org/mbostock/2368837'],
   description: '',
-  name: t('Word Cloud'),
+  name: t('Bar Chart with Negative Values'),
   thumbnail,
   useLegacyApi: true,
 });
 
-export default class WordCloudChartPlugin extends ChartPlugin {
+export default class HorizontalBarVizPlugin extends ChartPlugin {
   constructor() {
     super({
       loadChart: () => import('./ReactWordCloud.js'),

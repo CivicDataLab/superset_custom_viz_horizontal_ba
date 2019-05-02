@@ -10,9 +10,9 @@ This plugin provides Word Cloud for Superset.
 Configure `key`, which can be any `string`, and register the plugin. This `key` will be used to lookup this chart throughout the app.
 
 ```js
-import WordCloudChartPlugin from '@superset-ui/legacy-plugin-chart-word-cloud';
+import HorizontalBarVizPlugin from 'CDL-horizontal-bar';
 
-new WordCloudChartPlugin()
+new HorizontalBarVizPlugin()
   .configure({ key: 'word-cloud' })
   .register();
 ```
@@ -21,7 +21,7 @@ Then use it via `SuperChart`. See [storybook](https://apache-superset.github.io/
 
 ```js
 <SuperChart
-  chartType="word-cloud"
+  chartType="horizontal-bar-viz"
   chartProps={{
     width: 600,
     height: 600,
