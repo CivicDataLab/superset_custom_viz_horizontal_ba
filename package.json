@@ -2,10 +2,18 @@
   "name": "CDL-horizontal-bar",
   "version": "0.0.1",
   "description": "Superset custom Viz - Horizontal bar Chart",
+  "scripts": {
+    "build": "yarn build:cjs && yarn build:esm && yarn run type:dts && yarn build:assets",
+    "build:cjs": "NODE_ENV=production beemo babel --extensions=\".js,.jsx,.ts,.tsx\" ./src --out-dir lib/ --delete-dir-on-start --minify --workspaces=\"@superset-ui/!(plugins-demo)\"",
+    "build:esm": "NODE_ENV=production beemo babel --extensions=\".js,.jsx,.ts,.tsx\" ./src --out-dir esm/ --delete-dir-on-start --esm --minify --workspaces=\"@superset-ui/!(plugins-demo)\"",
+    "build:assets": "node ./buildAssets.js",
+},
+
   "sideEffects": [
     "*.css"
   ],
-  "main": "src/index.js",
+  "main": "lib/index.js",
+  "module": "esm/index.js",
   "files": [
     "esm",
     "lib"
