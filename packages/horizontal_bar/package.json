@@ -1,0 +1,40 @@
+{
+  "name": "CDL-horizontal-bar",
+  "version": "0.0.1",
+  "description": "Superset custom Viz - Horizontal bar Chart",
+  "sideEffects": [
+    "*.css"
+  ],
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "files": [
+    "esm",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CivicDataLab/superset_custom_viz_horizontal_bar.git"
+  },
+  "keywords": [
+    "superset"
+  ],
+  "author": "CivicDataLab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CivicDataLab/superset_custom_viz_horizontal_bar/issues"
+  },
+  "homepage": "https://github.com/CivicDataLab/superset_custom_viz_horizontal_bar#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "d3": "^3.5.17",
+    "d3-cloud": "^1.2.1",
+    "prop-types": "^15.6.2"
+  },
+  "peerDependencies": {
+    "@superset-ui/chart": "^0.10.0 || ^0.11.0",
+    "@superset-ui/color": "^0.10.0 || ^0.11.0",
+    "@superset-ui/translation": "^0.10.0 || ^0.11.0"
+  }
+}
